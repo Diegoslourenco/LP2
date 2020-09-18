@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\obj\Debug\pesoIdeal.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\obj\Debug\pesoIdeal.form1.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\obj\Debug\pesoIdeal.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\obj\Debug\pesoIdeal.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\obj\Debug\pesoIdeal.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\bin\Debug\pesoIdeal.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\bin\Debug\pesoIdeal.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\bin\Debug\pesoIdeal.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\obj\Debug\pesoIdeal.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade3\pesoIdeal\obj\Debug\pesoIdeal.pdb
