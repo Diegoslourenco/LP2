@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\bin\Debug\ladosTriangulo.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\bin\Debug\ladosTriangulo.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\bin\Debug\ladosTriangulo.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\obj\Debug\ladosTriangulo.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\obj\Debug\ladosTriangulo.Form1.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\obj\Debug\ladosTriangulo.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\obj\Debug\ladosTriangulo.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\obj\Debug\ladosTriangulo.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\obj\Debug\ladosTriangulo.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade4\ladosTriangulo\obj\Debug\ladosTriangulo.pdb
