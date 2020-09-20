@@ -19,6 +19,7 @@ namespace CalculaVolumeCilindro
 
         private void buttonSair_Click(object sender, EventArgs e)
         {
+            // Fecha a aplicação
             Close();
         }
 
@@ -36,12 +37,14 @@ namespace CalculaVolumeCilindro
             // Definindo variáveis
             double altura, raio, volume;
 
+            // Verificando se os campos não estao vazios
             if (textAltura.Text == "" || textRaio.Text == "")
             {
                 MessageBox.Show("Insira valores!");
                 return;
             }
 
+            // Verificando validade dos dados e calculando
             if (double.TryParse(textAltura.Text, out altura) && (double.TryParse(textRaio.Text, out raio)))
             {
                 volume = Math.PI * Math.Pow(raio, 2) * altura;
