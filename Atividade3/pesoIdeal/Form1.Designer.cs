@@ -101,7 +101,7 @@
             // maskedTextBoxAltura
             // 
             this.maskedTextBoxAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxAltura.Location = new System.Drawing.Point(158, 37);
+            this.maskedTextBoxAltura.Location = new System.Drawing.Point(169, 37);
             this.maskedTextBoxAltura.Mask = "0,00";
             this.maskedTextBoxAltura.Name = "maskedTextBoxAltura";
             this.maskedTextBoxAltura.RejectInputOnFirstFailure = true;
@@ -123,7 +123,7 @@
             // maskedTextBoxPeso
             // 
             this.maskedTextBoxPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxPeso.Location = new System.Drawing.Point(158, 120);
+            this.maskedTextBoxPeso.Location = new System.Drawing.Point(169, 120);
             this.maskedTextBoxPeso.Mask = "900,00";
             this.maskedTextBoxPeso.Name = "maskedTextBoxPeso";
             this.maskedTextBoxPeso.RejectInputOnFirstFailure = true;

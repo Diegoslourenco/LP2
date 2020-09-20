@@ -52,7 +52,7 @@
             // textA
             // 
             this.textA.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textA.Location = new System.Drawing.Point(128, 22);
+            this.textA.Location = new System.Drawing.Point(119, 22);
             this.textA.Name = "textA";
             this.textA.Size = new System.Drawing.Size(100, 38);
             this.textA.TabIndex = 0;
@@ -81,7 +81,7 @@
             // textB
             // 
             this.textB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textB.Location = new System.Drawing.Point(128, 78);
+            this.textB.Location = new System.Drawing.Point(119, 78);
             this.textB.Name = "textB";
             this.textB.Size = new System.Drawing.Size(100, 38);
             this.textB.TabIndex = 1;
@@ -89,7 +89,7 @@
             // textC
             // 
             this.textC.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textC.Location = new System.Drawing.Point(128, 135);
+            this.textC.Location = new System.Drawing.Point(119, 135);
             this.textC.Name = "textC";
             this.textC.Size = new System.Drawing.Size(100, 38);
             this.textC.TabIndex = 2;
