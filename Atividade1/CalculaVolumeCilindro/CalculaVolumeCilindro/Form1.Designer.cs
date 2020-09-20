@@ -67,7 +67,7 @@
             this.buttonCalcular.TabIndex = 3;
             this.buttonCalcular.Text = "Calcular";
             this.buttonCalcular.UseVisualStyleBackColor = true;
-            this.buttonCalcular.Click += new System.EventHandler(this.button1_Click);
+            this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
             // 
             // buttonSair
             // 
@@ -78,7 +78,7 @@
             this.buttonSair.TabIndex = 5;
             this.buttonSair.Text = "Sair";
             this.buttonSair.UseVisualStyleBackColor = true;
-            this.buttonSair.Click += new System.EventHandler(this.button2_Click);
+            this.buttonSair.Click += new System.EventHandler(this.buttonSair_Click);
             // 
             // label2
             // 
@@ -127,7 +127,7 @@
             this.buttonLimpar.TabIndex = 4;
             this.buttonLimpar.Text = "Limpar";
             this.buttonLimpar.UseVisualStyleBackColor = true;
-            this.buttonLimpar.Click += new System.EventHandler(this.button3_Click);
+            this.buttonLimpar.Click += new System.EventHandler(this.buttonLimpar_Click);
             // 
             // Form1
             // 

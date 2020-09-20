@@ -17,12 +17,12 @@ namespace CalculaVolumeCilindro
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonSair_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void buttonLimpar_Click(object sender, EventArgs e)
         {
             // limpando os dados
             textAltura.Clear();
@@ -31,9 +31,16 @@ namespace CalculaVolumeCilindro
             textAltura.Focus();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonCalcular_Click(object sender, EventArgs e)
         {
+            // Definindo variáveis
             double altura, raio, volume;
+
+            if (textAltura.Text == "" || textRaio.Text == "")
+            {
+                MessageBox.Show("Insira valores!");
+                return;
+            }
 
             if (double.TryParse(textAltura.Text, out altura) && (double.TryParse(textRaio.Text, out raio)))
             {
