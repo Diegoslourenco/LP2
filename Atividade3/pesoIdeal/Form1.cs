@@ -17,39 +17,44 @@ namespace pesoIdeal
             InitializeComponent();
         }
 
-        private void buttonCalcular_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
             //Definindo as variáveis
             double altura, peso, pesoIdeal;
-            String sexo;
+            char genero;
 
             //Verificando se os campos não estão vazios
-            if (radioButtonFeminino.Checked == false && radioButtonMasculino.Checked == false)
+            if (rbtnFeminino.Checked == false && rbtnMasculino.Checked == false)
             {
                 MessageBox.Show("Selecione Feminino ou Masculino!");
                 return;
             }
-
-            //Definindo sexo
-            if (radioButtonFeminino.Checked)
+            else if ((mskbxAltura.Text == "") || (mskbxPeso.Text == ""))
             {
-                sexo = "Feminino";
+                MessageBox.Show("Digite os valores!");
+                return;     
+            }
+
+            //Definindo o genero
+            if (rbtnFeminino.Checked)
+            {
+                genero = 'F';
             }
             else
             {
-                sexo = "Masculino";
+                genero = 'M';
             }
 
             // Validando valores e calculando resultado conforme sexo
-            if (double.TryParse(maskedTextBoxAltura.Text, out altura) && double.TryParse(maskedTextBoxPeso.Text, out peso))
+            if (double.TryParse(mskbxAltura.Text, out altura) && double.TryParse(mskbxPeso.Text, out peso))
             {
-                if (sexo == "Feminino")
+                if (genero == 'F')
                 {
-                    pesoIdeal = (62.1 * altura) - 44.7;
+                    pesoIdeal = Math.Round(((62.1 * altura) - 44.7), 2);
                 }
                 else
                 {
-                    pesoIdeal = (72.7 * altura) - 58;
+                    pesoIdeal = Math.Round((72.7 * altura) - 58, 2);
                 }
 
                 if (pesoIdeal == peso)
@@ -62,24 +67,24 @@ namespace pesoIdeal
                 }
                 else
                 {
-                    MessageBox.Show("Coma bastante massa e doces!");
+                    MessageBox.Show("Coma bastante massas e doces!");
                 }
             }
         }
 
-        private void buttonFechar_Click(object sender, EventArgs e)
+        private void btnFechar_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void buttonLimpar_Click(object sender, EventArgs e)
+        private void btnLimpar_Click(object sender, EventArgs e)
         {
-            maskedTextBoxAltura.Clear();
-            maskedTextBoxPeso.Clear();
-            maskedTextBoxAltura.Focus();
+            mskbxAltura.Clear();
+            mskbxPeso.Clear();
+            mskbxAltura.Focus();
         }
 
-        private void maskedTextBoxAltura_KeyPress(object sender, KeyPressEventArgs e)
+        private void mskbxAltura_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
             {

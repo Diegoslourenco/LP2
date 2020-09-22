@@ -12,38 +12,38 @@ namespace calculadoraSimples
 {
     public partial class Form1 : Form
     {
+        double numero1, numero2, resultado;
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void buttonLimpar_Click(object sender, EventArgs e)
+        private void btnLimpar_Click(object sender, EventArgs e)
         {
             //limpando dados
-            textNumero1.Clear();
-            textNumero2.Clear();
-            textResultado.Clear();
-            textNumero1.Focus();
+            txtNumero1.Clear();
+            txtNumero2.Clear();
+            txtResultado.Clear();
+            txtNumero1.Focus();
         }
 
-        private void buttonSair_Click(object sender, EventArgs e)
+        private void btnSair_Click(object sender, EventArgs e)
         {
             //saindo da aplicacao
             Close();
         }
 
-        private void buttonSoma_Click(object sender, EventArgs e)
+        private void btnSoma_Click(object sender, EventArgs e)
         {
             //soma de dois numeros
 
-            double numero1, numero2, resultado;
-
             //Verificando validade dos dados
-            if (double.TryParse(textNumero1.Text, out numero1) && double.TryParse(textNumero2.Text, out numero2))
+            if ((double.TryParse(txtNumero1.Text, out numero1)) && (double.TryParse(txtNumero2.Text, out numero2)))
             {
                 resultado = numero1 + numero2;
 
-                textResultado.Text = resultado.ToString("N2");
+                txtResultado.Text = resultado.ToString("N2");
             }
             else
             {
@@ -51,18 +51,16 @@ namespace calculadoraSimples
             }        
         }
 
-        private void buttonSubtracao_Click(object sender, EventArgs e)
+        private void btnSubtracao_Click(object sender, EventArgs e)
         {
             //Subtracao de dois numeros
 
-            double numero1, numero2, resultado;
-
             //Verificando validade dos dados
-            if (double.TryParse(textNumero1.Text, out numero1) && double.TryParse(textNumero2.Text, out numero2))
+            if ((double.TryParse(txtNumero1.Text, out numero1)) && (double.TryParse(txtNumero2.Text, out numero2)))
             {
                 resultado = numero1 - numero2;
 
-                textResultado.Text = resultado.ToString("N2");
+                txtResultado.Text = resultado.ToString("N2");
             }
             else
             {
@@ -70,18 +68,16 @@ namespace calculadoraSimples
             }
         }
 
-        private void buttonMultiplicacao_Click(object sender, EventArgs e)
+        private void btnMultiplicacao_Click(object sender, EventArgs e)
         {
             //Multiplicacao de dois numeros
 
-            double numero1, numero2, resultado;
-
             //Verificando validade dos dados
-            if (double.TryParse(textNumero1.Text, out numero1) && double.TryParse(textNumero2.Text, out numero2))
+            if ((double.TryParse(txtNumero1.Text, out numero1)) && (double.TryParse(txtNumero2.Text, out numero2)))
             {
                 resultado = numero1 * numero2;
 
-                textResultado.Text = resultado.ToString("N2");
+                txtResultado.Text = resultado.ToString("N2");
             }
             else
             {
@@ -89,18 +85,22 @@ namespace calculadoraSimples
             }
         }
 
-        private void buttonDivisao_Click(object sender, EventArgs e)
+        private void btnDivisao_Click(object sender, EventArgs e)
         {
             //Divisao de dois numeros
 
-            double numero1, numero2, resultado;
-
             //Verificando validade dos dados
-            if (double.TryParse(textNumero1.Text, out numero1) && double.TryParse(textNumero2.Text, out numero2))
+            if ((double.TryParse(txtNumero1.Text, out numero1)) && (double.TryParse(txtNumero2.Text, out numero2)))
             {
-                resultado = numero1 / numero2;
-
-                textResultado.Text = resultado.ToString("N2");
+                if (numero2 == 0)
+                {
+                    MessageBox.Show("Denominador não pode ser zero!");
+                }
+                else
+                {
+                    resultado = numero1 / numero2;
+                    txtResultado.Text = resultado.ToString("N2");
+                }
             }
             else
             {
@@ -108,7 +108,7 @@ namespace calculadoraSimples
             }
         }
 
-        private void textNumero1_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtNumero1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar==(char)13) // transforma o 13 em caracter, é o enter
             {

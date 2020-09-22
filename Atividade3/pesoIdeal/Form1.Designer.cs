@@ -28,148 +28,151 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButtonFeminino = new System.Windows.Forms.RadioButton();
-            this.radioButtonMasculino = new System.Windows.Forms.RadioButton();
-            this.buttonCalcular = new System.Windows.Forms.Button();
-            this.maskedTextBoxAltura = new System.Windows.Forms.MaskedTextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.maskedTextBoxPeso = new System.Windows.Forms.MaskedTextBox();
-            this.buttonLimpar = new System.Windows.Forms.Button();
-            this.buttonFechar = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.lblAltura = new System.Windows.Forms.Label();
+            this.gbxGenero = new System.Windows.Forms.GroupBox();
+            this.rbtnFeminino = new System.Windows.Forms.RadioButton();
+            this.rbtnMasculino = new System.Windows.Forms.RadioButton();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.mskbxAltura = new System.Windows.Forms.MaskedTextBox();
+            this.lblPeso = new System.Windows.Forms.Label();
+            this.mskbxPeso = new System.Windows.Forms.MaskedTextBox();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.gbxGenero.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // lblAltura
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(23, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Altura";
+            this.lblAltura.AutoSize = true;
+            this.lblAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAltura.Location = new System.Drawing.Point(23, 37);
+            this.lblAltura.Name = "lblAltura";
+            this.lblAltura.Size = new System.Drawing.Size(85, 31);
+            this.lblAltura.TabIndex = 0;
+            this.lblAltura.Text = "Altura";
             // 
-            // groupBox1
+            // gbxGenero
             // 
-            this.groupBox1.Controls.Add(this.radioButtonFeminino);
-            this.groupBox1.Controls.Add(this.radioButtonMasculino);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(79, 200);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(208, 123);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Sexo";
+            this.gbxGenero.Controls.Add(this.rbtnFeminino);
+            this.gbxGenero.Controls.Add(this.rbtnMasculino);
+            this.gbxGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbxGenero.Location = new System.Drawing.Point(79, 200);
+            this.gbxGenero.Name = "gbxGenero";
+            this.gbxGenero.Size = new System.Drawing.Size(208, 123);
+            this.gbxGenero.TabIndex = 2;
+            this.gbxGenero.TabStop = false;
+            this.gbxGenero.Text = "Genero";
             // 
-            // radioButtonFeminino
+            // rbtnFeminino
             // 
-            this.radioButtonFeminino.AutoSize = true;
-            this.radioButtonFeminino.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonFeminino.Location = new System.Drawing.Point(16, 37);
-            this.radioButtonFeminino.Name = "radioButtonFeminino";
-            this.radioButtonFeminino.Size = new System.Drawing.Size(143, 35);
-            this.radioButtonFeminino.TabIndex = 3;
-            this.radioButtonFeminino.TabStop = true;
-            this.radioButtonFeminino.Text = "Feminino";
-            this.radioButtonFeminino.UseVisualStyleBackColor = true;
+            this.rbtnFeminino.AutoSize = true;
+            this.rbtnFeminino.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnFeminino.Location = new System.Drawing.Point(16, 37);
+            this.rbtnFeminino.Name = "rbtnFeminino";
+            this.rbtnFeminino.Size = new System.Drawing.Size(143, 35);
+            this.rbtnFeminino.TabIndex = 3;
+            this.rbtnFeminino.TabStop = true;
+            this.rbtnFeminino.Text = "Feminino";
+            this.rbtnFeminino.UseVisualStyleBackColor = true;
             // 
-            // radioButtonMasculino
+            // rbtnMasculino
             // 
-            this.radioButtonMasculino.AutoSize = true;
-            this.radioButtonMasculino.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonMasculino.Location = new System.Drawing.Point(16, 82);
-            this.radioButtonMasculino.Name = "radioButtonMasculino";
-            this.radioButtonMasculino.Size = new System.Drawing.Size(154, 35);
-            this.radioButtonMasculino.TabIndex = 4;
-            this.radioButtonMasculino.TabStop = true;
-            this.radioButtonMasculino.Text = "Masculino";
-            this.radioButtonMasculino.UseVisualStyleBackColor = true;
+            this.rbtnMasculino.AutoSize = true;
+            this.rbtnMasculino.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnMasculino.Location = new System.Drawing.Point(16, 82);
+            this.rbtnMasculino.Name = "rbtnMasculino";
+            this.rbtnMasculino.Size = new System.Drawing.Size(154, 35);
+            this.rbtnMasculino.TabIndex = 4;
+            this.rbtnMasculino.TabStop = true;
+            this.rbtnMasculino.Text = "Masculino";
+            this.rbtnMasculino.UseVisualStyleBackColor = true;
             // 
-            // buttonCalcular
+            // btnCalcular
             // 
-            this.buttonCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCalcular.Location = new System.Drawing.Point(12, 370);
-            this.buttonCalcular.Name = "buttonCalcular";
-            this.buttonCalcular.Size = new System.Drawing.Size(122, 53);
-            this.buttonCalcular.TabIndex = 5;
-            this.buttonCalcular.Text = "Calcular";
-            this.buttonCalcular.UseVisualStyleBackColor = true;
-            this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(12, 370);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(122, 53);
+            this.btnCalcular.TabIndex = 5;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // maskedTextBoxAltura
+            // mskbxAltura
             // 
-            this.maskedTextBoxAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxAltura.Location = new System.Drawing.Point(169, 37);
-            this.maskedTextBoxAltura.Mask = "0,00";
-            this.maskedTextBoxAltura.Name = "maskedTextBoxAltura";
-            this.maskedTextBoxAltura.RejectInputOnFirstFailure = true;
-            this.maskedTextBoxAltura.Size = new System.Drawing.Size(146, 38);
-            this.maskedTextBoxAltura.TabIndex = 0;
-            this.maskedTextBoxAltura.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.maskedTextBoxAltura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.maskedTextBoxAltura_KeyPress);
+            this.mskbxAltura.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.mskbxAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mskbxAltura.Location = new System.Drawing.Point(169, 37);
+            this.mskbxAltura.Mask = "0,00";
+            this.mskbxAltura.Name = "mskbxAltura";
+            this.mskbxAltura.RejectInputOnFirstFailure = true;
+            this.mskbxAltura.Size = new System.Drawing.Size(146, 38);
+            this.mskbxAltura.TabIndex = 0;
+            this.mskbxAltura.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.mskbxAltura.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.mskbxAltura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mskbxAltura_KeyPress);
             // 
-            // label3
+            // lblPeso
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 120);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 31);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Peso";
+            this.lblPeso.AutoSize = true;
+            this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeso.Location = new System.Drawing.Point(23, 120);
+            this.lblPeso.Name = "lblPeso";
+            this.lblPeso.Size = new System.Drawing.Size(76, 31);
+            this.lblPeso.TabIndex = 7;
+            this.lblPeso.Text = "Peso";
             // 
-            // maskedTextBoxPeso
+            // mskbxPeso
             // 
-            this.maskedTextBoxPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxPeso.Location = new System.Drawing.Point(169, 120);
-            this.maskedTextBoxPeso.Mask = "900,00";
-            this.maskedTextBoxPeso.Name = "maskedTextBoxPeso";
-            this.maskedTextBoxPeso.RejectInputOnFirstFailure = true;
-            this.maskedTextBoxPeso.Size = new System.Drawing.Size(146, 38);
-            this.maskedTextBoxPeso.TabIndex = 1;
-            this.maskedTextBoxPeso.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.mskbxPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mskbxPeso.Location = new System.Drawing.Point(169, 120);
+            this.mskbxPeso.Mask = "900,00";
+            this.mskbxPeso.Name = "mskbxPeso";
+            this.mskbxPeso.RejectInputOnFirstFailure = true;
+            this.mskbxPeso.Size = new System.Drawing.Size(146, 38);
+            this.mskbxPeso.TabIndex = 1;
+            this.mskbxPeso.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.mskbxPeso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mskbxAltura_KeyPress);
             // 
-            // buttonLimpar
+            // btnLimpar
             // 
-            this.buttonLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLimpar.Location = new System.Drawing.Point(140, 370);
-            this.buttonLimpar.Name = "buttonLimpar";
-            this.buttonLimpar.Size = new System.Drawing.Size(122, 53);
-            this.buttonLimpar.TabIndex = 8;
-            this.buttonLimpar.Text = "Limpar";
-            this.buttonLimpar.UseVisualStyleBackColor = true;
-            this.buttonLimpar.Click += new System.EventHandler(this.buttonLimpar_Click);
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(140, 370);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(122, 53);
+            this.btnLimpar.TabIndex = 8;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
-            // buttonFechar
+            // btnFechar
             // 
-            this.buttonFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFechar.Location = new System.Drawing.Point(268, 370);
-            this.buttonFechar.Name = "buttonFechar";
-            this.buttonFechar.Size = new System.Drawing.Size(122, 53);
-            this.buttonFechar.TabIndex = 9;
-            this.buttonFechar.Text = "Fechar";
-            this.buttonFechar.UseVisualStyleBackColor = true;
-            this.buttonFechar.Click += new System.EventHandler(this.buttonFechar_Click);
+            this.btnFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFechar.Location = new System.Drawing.Point(268, 370);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(122, 53);
+            this.btnFechar.TabIndex = 9;
+            this.btnFechar.Text = "Fechar";
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(402, 432);
-            this.Controls.Add(this.buttonFechar);
-            this.Controls.Add(this.buttonLimpar);
-            this.Controls.Add(this.maskedTextBoxPeso);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.maskedTextBoxAltura);
-            this.Controls.Add(this.buttonCalcular);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnFechar);
+            this.Controls.Add(this.btnLimpar);
+            this.Controls.Add(this.mskbxPeso);
+            this.Controls.Add(this.lblPeso);
+            this.Controls.Add(this.mskbxAltura);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.gbxGenero);
+            this.Controls.Add(this.lblAltura);
             this.Name = "form1";
             this.Text = "Peso Ideal";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gbxGenero.ResumeLayout(false);
+            this.gbxGenero.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,16 +180,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButtonFeminino;
-        private System.Windows.Forms.Button buttonCalcular;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxAltura;
-        private System.Windows.Forms.RadioButton radioButtonMasculino;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxPeso;
-        private System.Windows.Forms.Button buttonLimpar;
-        private System.Windows.Forms.Button buttonFechar;
+        private System.Windows.Forms.Label lblAltura;
+        private System.Windows.Forms.GroupBox gbxGenero;
+        private System.Windows.Forms.RadioButton rbtnFeminino;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.MaskedTextBox mskbxAltura;
+        private System.Windows.Forms.RadioButton rbtnMasculino;
+        private System.Windows.Forms.Label lblPeso;
+        private System.Windows.Forms.MaskedTextBox mskbxPeso;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnFechar;
     }
 }
 

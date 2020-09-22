@@ -17,39 +17,39 @@ namespace CalculaVolumeCilindro
             InitializeComponent();
         }
 
-        private void buttonSair_Click(object sender, EventArgs e)
+        private void btnSair_Click(object sender, EventArgs e)
         {
             // Fecha a aplicação
             Close();
         }
 
-        private void buttonLimpar_Click(object sender, EventArgs e)
+        private void btnLimpar_Click(object sender, EventArgs e)
         {
             // limpando os dados
-            textAltura.Clear();
-            textRaio.Clear();
-            textVolume.Clear();
-            textAltura.Focus();
+            txtAltura.Clear();
+            txtRaio.Clear();
+            txtVolume.Clear();
+            txtAltura.Focus();
         }
 
-        private void buttonCalcular_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
             // Definindo variáveis
             double altura, raio, volume;
 
             // Verificando se os campos não estao vazios
-            if (textAltura.Text == "" || textRaio.Text == "")
+            if (txtAltura.Text == "" || txtRaio.Text == "")
             {
                 MessageBox.Show("Insira valores!");
                 return;
             }
 
             // Verificando validade dos dados e calculando
-            if (double.TryParse(textAltura.Text, out altura) && (double.TryParse(textRaio.Text, out raio)))
+            if (double.TryParse(txtAltura.Text, out altura) && (double.TryParse(txtRaio.Text, out raio)))
             {
                 volume = Math.PI * Math.Pow(raio, 2) * altura;
 
-                textVolume.Text = volume.ToString("N2");
+                txtVolume.Text = volume.ToString("N2");
             }
             else
             {
@@ -57,7 +57,7 @@ namespace CalculaVolumeCilindro
             }
         }
 
-        private void textAltura_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtAltura_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar==(char)13) // transforma o 13 em caracter, da tabela é o enter
             {

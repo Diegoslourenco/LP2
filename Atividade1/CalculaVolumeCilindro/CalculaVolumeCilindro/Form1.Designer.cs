@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textAltura = new System.Windows.Forms.TextBox();
-            this.buttonCalcular = new System.Windows.Forms.Button();
-            this.buttonSair = new System.Windows.Forms.Button();
+            this.txtAltura = new System.Windows.Forms.TextBox();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textRaio = new System.Windows.Forms.TextBox();
-            this.textVolume = new System.Windows.Forms.TextBox();
-            this.buttonLimpar = new System.Windows.Forms.Button();
+            this.txtRaio = new System.Windows.Forms.TextBox();
+            this.txtVolume = new System.Windows.Forms.TextBox();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -49,36 +49,36 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Altura";
             // 
-            // textAltura
+            // txtAltura
             // 
-            this.textAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textAltura.Location = new System.Drawing.Point(201, 28);
-            this.textAltura.Name = "textAltura";
-            this.textAltura.Size = new System.Drawing.Size(257, 31);
-            this.textAltura.TabIndex = 0;
-            this.textAltura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textAltura_KeyPress);
+            this.txtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAltura.Location = new System.Drawing.Point(201, 28);
+            this.txtAltura.Name = "txtAltura";
+            this.txtAltura.Size = new System.Drawing.Size(257, 31);
+            this.txtAltura.TabIndex = 0;
+            this.txtAltura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAltura_KeyPress);
             // 
-            // buttonCalcular
+            // btnCalcular
             // 
-            this.buttonCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCalcular.Location = new System.Drawing.Point(12, 263);
-            this.buttonCalcular.Name = "buttonCalcular";
-            this.buttonCalcular.Size = new System.Drawing.Size(136, 50);
-            this.buttonCalcular.TabIndex = 3;
-            this.buttonCalcular.Text = "Calcular";
-            this.buttonCalcular.UseVisualStyleBackColor = true;
-            this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(12, 263);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(136, 50);
+            this.btnCalcular.TabIndex = 3;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // buttonSair
+            // btnSair
             // 
-            this.buttonSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSair.Location = new System.Drawing.Point(322, 263);
-            this.buttonSair.Name = "buttonSair";
-            this.buttonSair.Size = new System.Drawing.Size(136, 50);
-            this.buttonSair.TabIndex = 5;
-            this.buttonSair.Text = "Sair";
-            this.buttonSair.UseVisualStyleBackColor = true;
-            this.buttonSair.Click += new System.EventHandler(this.buttonSair_Click);
+            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Location = new System.Drawing.Point(322, 263);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(136, 50);
+            this.btnSair.TabIndex = 5;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // label2
             // 
@@ -100,48 +100,48 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Volume";
             // 
-            // textRaio
+            // txtRaio
             // 
-            this.textRaio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textRaio.Location = new System.Drawing.Point(201, 93);
-            this.textRaio.Name = "textRaio";
-            this.textRaio.Size = new System.Drawing.Size(257, 31);
-            this.textRaio.TabIndex = 1;
-            this.textRaio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textAltura_KeyPress);
+            this.txtRaio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRaio.Location = new System.Drawing.Point(201, 93);
+            this.txtRaio.Name = "txtRaio";
+            this.txtRaio.Size = new System.Drawing.Size(257, 31);
+            this.txtRaio.TabIndex = 1;
+            this.txtRaio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAltura_KeyPress);
             // 
-            // textVolume
+            // txtVolume
             // 
-            this.textVolume.Enabled = false;
-            this.textVolume.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textVolume.Location = new System.Drawing.Point(201, 160);
-            this.textVolume.Name = "textVolume";
-            this.textVolume.Size = new System.Drawing.Size(257, 31);
-            this.textVolume.TabIndex = 2;
+            this.txtVolume.Enabled = false;
+            this.txtVolume.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVolume.Location = new System.Drawing.Point(201, 160);
+            this.txtVolume.Name = "txtVolume";
+            this.txtVolume.Size = new System.Drawing.Size(257, 31);
+            this.txtVolume.TabIndex = 2;
             // 
-            // buttonLimpar
+            // btnLimpar
             // 
-            this.buttonLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLimpar.Location = new System.Drawing.Point(170, 263);
-            this.buttonLimpar.Name = "buttonLimpar";
-            this.buttonLimpar.Size = new System.Drawing.Size(136, 50);
-            this.buttonLimpar.TabIndex = 4;
-            this.buttonLimpar.Text = "Limpar";
-            this.buttonLimpar.UseVisualStyleBackColor = true;
-            this.buttonLimpar.Click += new System.EventHandler(this.buttonLimpar_Click);
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(170, 263);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(136, 50);
+            this.btnLimpar.TabIndex = 4;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(487, 336);
-            this.Controls.Add(this.buttonLimpar);
-            this.Controls.Add(this.textVolume);
-            this.Controls.Add(this.textRaio);
+            this.Controls.Add(this.btnLimpar);
+            this.Controls.Add(this.txtVolume);
+            this.Controls.Add(this.txtRaio);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.buttonSair);
-            this.Controls.Add(this.buttonCalcular);
-            this.Controls.Add(this.textAltura);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.txtAltura);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Volume do Cilindro";
@@ -153,14 +153,14 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textAltura;
-        private System.Windows.Forms.Button buttonCalcular;
-        private System.Windows.Forms.Button buttonSair;
+        private System.Windows.Forms.TextBox txtAltura;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textRaio;
-        private System.Windows.Forms.TextBox textVolume;
-        private System.Windows.Forms.Button buttonLimpar;
+        private System.Windows.Forms.TextBox txtRaio;
+        private System.Windows.Forms.TextBox txtVolume;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
 
