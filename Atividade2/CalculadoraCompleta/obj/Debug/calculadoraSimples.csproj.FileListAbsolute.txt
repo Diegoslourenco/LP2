@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\bin\Debug\calculadoraSimples.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\bin\Debug\calculadoraSimples.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\bin\Debug\calculadoraSimples.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\obj\Debug\calculadoraSimples.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\obj\Debug\calculadoraSimples.Form1.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\obj\Debug\calculadoraSimples.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\obj\Debug\calculadoraSimples.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\obj\Debug\calculadoraSimples.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\obj\Debug\calculadoraSimples.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade2\calculadoraSimples\obj\Debug\calculadoraSimples.pdb
