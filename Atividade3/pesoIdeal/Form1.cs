@@ -20,8 +20,7 @@ namespace pesoIdeal
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             //Definindo as variáveis
-            double altura, peso, pesoIdeal;
-            char genero;
+            double pesoIdeal;
 
             //Verificando se os campos não estão vazios
             if (rbtnFeminino.Checked == false && rbtnMasculino.Checked == false)
@@ -35,20 +34,15 @@ namespace pesoIdeal
                 return;     
             }
 
-            //Definindo o genero
-            if (rbtnFeminino.Checked)
-            {
-                genero = 'F';
-            }
-            else
-            {
-                genero = 'M';
-            }
-
             // Validando valores e calculando resultado conforme sexo
-            if (double.TryParse(mskbxAltura.Text, out altura) && double.TryParse(mskbxPeso.Text, out peso))
+            if ((double.TryParse(mskbxAltura.Text, out double altura)) && (double.TryParse(mskbxPeso.Text, out double peso)))
             {
-                if (genero == 'F')
+                // Convertendo o valor que vem da mascara
+                altura /= 100;
+                peso /= 100;
+
+                //Calculos diferentes se feminimo ou masculino
+                if (rbtnFeminino.Checked)
                 {
                     pesoIdeal = Math.Round(((62.1 * altura) - 44.7), 2);
                 }
@@ -57,6 +51,12 @@ namespace pesoIdeal
                     pesoIdeal = Math.Round((72.7 * altura) - 58, 2);
                 }
 
+                MessageBox.Show(pesoIdeal.ToString());
+
+                // Mostrando o valor do pesoIdeal
+                mskbxPesoIdeal.Text = pesoIdeal.ToString("N2") + " kg";
+
+                // Mostrando mensagem para o usuário
                 if (pesoIdeal == peso)
                 {
                     MessageBox.Show("Você está com o peso ideal!");

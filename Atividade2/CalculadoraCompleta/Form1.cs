@@ -151,7 +151,7 @@ namespace calculadoraCompleta
                 primeiraOperacao = false;
                 operacaoAnterior = String.Copy(operacaoAtual);
             }
-            // Evitar mais de um clique em sequencia nos botoes %, raiz, 1/x e elevado ao quadrado
+            // Evitar mais de um clique em sequencia nos botoes %, raiz e 1/x
             else if (operadorAtivo == true)
             {
                 txtVisorFundo.AppendText(" " + operacaoAtual);
@@ -206,7 +206,7 @@ namespace calculadoraCompleta
             valorAtual = 0;
             operacaoAtual = "";
 
-            // Definindo operacaoAnterior
+            // Definindo operacaoAnterior para sequencias de calculo
             if (temp == "")
             {
                 operacaoAnterior = String.Copy(operacaoAtual);

@@ -38,6 +38,8 @@
             this.mskbxPeso = new System.Windows.Forms.MaskedTextBox();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.mskbxPesoIdeal = new System.Windows.Forms.MaskedTextBox();
+            this.lblPesoIdeal = new System.Windows.Forms.Label();
             this.gbxGenero.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@
             this.gbxGenero.Controls.Add(this.rbtnFeminino);
             this.gbxGenero.Controls.Add(this.rbtnMasculino);
             this.gbxGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxGenero.Location = new System.Drawing.Point(79, 200);
+            this.gbxGenero.Location = new System.Drawing.Point(79, 170);
             this.gbxGenero.Name = "gbxGenero";
             this.gbxGenero.Size = new System.Drawing.Size(208, 123);
             this.gbxGenero.TabIndex = 2;
@@ -102,8 +104,8 @@
             // 
             this.mskbxAltura.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.mskbxAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskbxAltura.Location = new System.Drawing.Point(169, 37);
-            this.mskbxAltura.Mask = "0,00";
+            this.mskbxAltura.Location = new System.Drawing.Point(198, 37);
+            this.mskbxAltura.Mask = "0,00 m";
             this.mskbxAltura.Name = "mskbxAltura";
             this.mskbxAltura.RejectInputOnFirstFailure = true;
             this.mskbxAltura.Size = new System.Drawing.Size(146, 38);
@@ -116,7 +118,7 @@
             // 
             this.lblPeso.AutoSize = true;
             this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(23, 120);
+            this.lblPeso.Location = new System.Drawing.Point(23, 113);
             this.lblPeso.Name = "lblPeso";
             this.lblPeso.Size = new System.Drawing.Size(76, 31);
             this.lblPeso.TabIndex = 7;
@@ -124,14 +126,16 @@
             // 
             // mskbxPeso
             // 
+            this.mskbxPeso.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.mskbxPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskbxPeso.Location = new System.Drawing.Point(169, 120);
-            this.mskbxPeso.Mask = "900,00";
+            this.mskbxPeso.Location = new System.Drawing.Point(198, 113);
+            this.mskbxPeso.Mask = "900,00 kg";
             this.mskbxPeso.Name = "mskbxPeso";
             this.mskbxPeso.RejectInputOnFirstFailure = true;
             this.mskbxPeso.Size = new System.Drawing.Size(146, 38);
             this.mskbxPeso.TabIndex = 1;
             this.mskbxPeso.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.mskbxPeso.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.mskbxPeso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mskbxAltura_KeyPress);
             // 
             // btnLimpar
@@ -156,11 +160,35 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // mskbxPesoIdeal
+            // 
+            this.mskbxPesoIdeal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mskbxPesoIdeal.Location = new System.Drawing.Point(198, 310);
+            this.mskbxPesoIdeal.Name = "mskbxPesoIdeal";
+            this.mskbxPesoIdeal.ReadOnly = true;
+            this.mskbxPesoIdeal.RejectInputOnFirstFailure = true;
+            this.mskbxPesoIdeal.Size = new System.Drawing.Size(146, 38);
+            this.mskbxPesoIdeal.TabIndex = 10;
+            this.mskbxPesoIdeal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.mskbxPesoIdeal.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            // 
+            // lblPesoIdeal
+            // 
+            this.lblPesoIdeal.AutoSize = true;
+            this.lblPesoIdeal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPesoIdeal.Location = new System.Drawing.Point(23, 317);
+            this.lblPesoIdeal.Name = "lblPesoIdeal";
+            this.lblPesoIdeal.Size = new System.Drawing.Size(142, 31);
+            this.lblPesoIdeal.TabIndex = 11;
+            this.lblPesoIdeal.Text = "Peso Ideal";
+            // 
             // form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(402, 432);
+            this.Controls.Add(this.mskbxPesoIdeal);
+            this.Controls.Add(this.lblPesoIdeal);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.mskbxPeso);
@@ -190,6 +218,8 @@
         private System.Windows.Forms.MaskedTextBox mskbxPeso;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.MaskedTextBox mskbxPesoIdeal;
+        private System.Windows.Forms.Label lblPesoIdeal;
     }
 }
 

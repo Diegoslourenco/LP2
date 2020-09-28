@@ -38,13 +38,19 @@ namespace ladosTriangulo
             // Verificando se os campos estão vazios
             if ((txtA.Text == "") || (txtB.Text == "") || (txtC.Text == ""))
             {
-                MessageBox.Show("Preench todos os campos!");
+                MessageBox.Show("Preencha todos os campos!");
                 return;
             }
 
             // Verificando se os campos estão preenchidos
             if(double.TryParse(txtA.Text, out ladoA) && double.TryParse(txtB.Text, out ladoB) && double.TryParse(txtC.Text, out ladoC))
             {
+                if (ladoA <= 0 || ladoB <= 0 || ladoC <= 0)
+                {
+                    MessageBox.Show("Insira valores maiores que zero!");
+                    return;
+                }
+
                 // Verificando a regra de triangulos
                 if (ladoA < Math.Abs(ladoB - ladoC) || ladoA > ladoB + ladoC)
                 {
