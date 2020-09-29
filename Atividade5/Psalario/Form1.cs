@@ -54,8 +54,8 @@ namespace Psalario
                 }
             }
 
-            // Testando se não é passado texto pelos campos
-            if (mskbxNumeroFilhos.Text == "" || mskbxSalarioBruto.Text == "")
+            // Testando se os campos nao estao vazios
+            if (mskbxNumeroFilhos.Text == "" || mskbxSalarioBruto.Text == "" || mskbxNomeFuncionario.Text == "")
             {
                 MessageBox.Show("Digite em todos os campos!");
                 return;
