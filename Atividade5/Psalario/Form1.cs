@@ -19,9 +19,18 @@ namespace Psalario
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
+            // entradas
             mskbxNomeFuncionario.Clear();
             mskbxSalarioBruto.Clear();
             mskbxNumeroFilhos.Clear();
+
+            // saidas
+            txtAliquotaINSS.Clear();
+            txtAliquotaIRPF.Clear();
+            txtDescontoINSS.Clear();
+            txtDescontoIRPF.Clear();
+            txtSalarioFamilia.Clear();
+            txtSalarioLiquido.Clear();
         }
 
         private void btnVerificar_Click(object sender, EventArgs e)
