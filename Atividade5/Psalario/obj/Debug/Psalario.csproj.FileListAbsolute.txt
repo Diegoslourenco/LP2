@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\obj\Debug\Psalario.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\obj\Debug\Psalario.Form1.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\obj\Debug\Psalario.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\obj\Debug\Psalario.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\obj\Debug\Psalario.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\bin\Debug\Psalario.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\bin\Debug\Psalario.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\bin\Debug\Psalario.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\obj\Debug\Psalario.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Atividade5\Psalario\obj\Debug\Psalario.pdb
