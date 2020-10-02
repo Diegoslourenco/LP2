@@ -31,6 +31,7 @@ namespace Psalario
             txtDescontoIRPF.Clear();
             txtSalarioFamilia.Clear();
             txtSalarioLiquido.Clear();
+            lblDados.Text = "";
         }
 
         private void btnVerificar_Click(object sender, EventArgs e)
