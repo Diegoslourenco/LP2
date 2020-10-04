@@ -130,7 +130,7 @@ namespace Psalario
             }
             else
             {
-                aliquotaINSS = 0.11;
+                aliquotaINSS = 0;
             }
 
             // Verificacao de faixa de IRPF
@@ -162,8 +162,16 @@ namespace Psalario
             }
 
             // Cálculo dos descontos
-            descontoIRPF = salarioBruto * aliquotaIRPF;
-            descontoINSS = salarioBruto * aliquotaINSS;
+            if (salarioBruto > 2801.56)
+            {
+                descontoINSS = 308.17; // valor do teto
+            }
+            else
+            {
+                descontoINSS = salarioBruto * aliquotaINSS;
+            }
+
+            descontoIRPF = salarioBruto * aliquotaIRPF;       
 
             // Cálculo de salário líquido
             salarioLiquido = salarioBruto + salarioFamilia - descontoINSS - descontoIRPF;

@@ -92,7 +92,7 @@
             // 
             this.mskbxSalarioBruto.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mskbxSalarioBruto.Location = new System.Drawing.Point(223, 46);
-            this.mskbxSalarioBruto.Mask = "$ 9000,00";
+            this.mskbxSalarioBruto.Mask = "$ 99000,00";
             this.mskbxSalarioBruto.Name = "mskbxSalarioBruto";
             this.mskbxSalarioBruto.Size = new System.Drawing.Size(116, 33);
             this.mskbxSalarioBruto.TabIndex = 2;
@@ -213,6 +213,7 @@
             this.pnlSaidas.Controls.Add(this.txtAliquotaINSS);
             this.pnlSaidas.Controls.Add(this.lblDescontoINSS);
             this.pnlSaidas.Controls.Add(this.lblDescontoIRPF);
+            this.pnlSaidas.Enabled = false;
             this.pnlSaidas.Location = new System.Drawing.Point(26, 190);
             this.pnlSaidas.Name = "pnlSaidas";
             this.pnlSaidas.Size = new System.Drawing.Size(558, 242);
