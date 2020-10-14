@@ -1,0 +1,14 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\bin\Debug\Pmetodos.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\bin\Debug\Pmetodos.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\bin\Debug\Pmetodos.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.frmExercicio2.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.frmPrincipal.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.frmExercicio3.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.frmExercicio4.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\FATEC\Semestre 2\Linguagem de Programação 2\Entregas gitHub\Pmetodos\obj\Debug\Pmetodos.frmExercicio5.resources
