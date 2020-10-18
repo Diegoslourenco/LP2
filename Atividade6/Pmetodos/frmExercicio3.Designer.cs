@@ -55,7 +55,7 @@
             this.btnRemover2.Name = "btnRemover2";
             this.btnRemover2.Size = new System.Drawing.Size(141, 78);
             this.btnRemover2.TabIndex = 12;
-            this.btnRemover2.Text = "Inserir primeiro no Segundo (Replace)";
+            this.btnRemover2.Text = "Remover primeiro do segundo (Replace)";
             this.btnRemover2.UseVisualStyleBackColor = true;
             this.btnRemover2.Click += new System.EventHandler(this.btnRemover2_Click);
             // 

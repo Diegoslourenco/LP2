@@ -82,6 +82,10 @@ namespace ladosTriangulo
                     MessageBox.Show("O triângulo é escaleno!");
                 }     
             }
+            else
+            {
+                MessageBox.Show("Digite valores válidos!");
+            }
         }
 
         private void txtA_KeyPress(object sender, KeyPressEventArgs e)
