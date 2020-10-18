@@ -91,5 +91,10 @@ namespace Pmetodos
             FrmExercicio5.WindowState = FormWindowState.Maximized; // Para abrir maximizado
             FrmExercicio5.Show();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
