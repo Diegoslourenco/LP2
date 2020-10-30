@@ -80,7 +80,6 @@
             this.lblPalavra2.Size = new System.Drawing.Size(74, 20);
             this.lblPalavra2.TabIndex = 10;
             this.lblPalavra2.Text = "Palavra 2";
-            this.lblPalavra2.Click += new System.EventHandler(this.lblPalavra2_Click);
             // 
             // lblPalavra1
             // 
@@ -92,7 +91,6 @@
             this.lblPalavra1.Size = new System.Drawing.Size(74, 20);
             this.lblPalavra1.TabIndex = 9;
             this.lblPalavra1.Text = "Palavra 1";
-            this.lblPalavra1.Click += new System.EventHandler(this.lblPalavra1_Click);
             // 
             // txtPalavra2
             // 
@@ -102,7 +100,6 @@
             this.txtPalavra2.Name = "txtPalavra2";
             this.txtPalavra2.Size = new System.Drawing.Size(231, 26);
             this.txtPalavra2.TabIndex = 8;
-            this.txtPalavra2.TextChanged += new System.EventHandler(this.txtPalavra2_TextChanged);
             // 
             // txtPalavra1
             // 
@@ -112,7 +109,6 @@
             this.txtPalavra1.Name = "txtPalavra1";
             this.txtPalavra1.Size = new System.Drawing.Size(231, 26);
             this.txtPalavra1.TabIndex = 7;
-            this.txtPalavra1.TextChanged += new System.EventHandler(this.txtPalavra1_TextChanged);
             // 
             // frmExercicio3
             // 

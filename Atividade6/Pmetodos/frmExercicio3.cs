@@ -49,25 +49,5 @@ namespace Pmetodos
                 txtPalavra2.Text += caracter;
             }
         }
-
-        private void txtPalavra1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPalavra2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblPalavra2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblPalavra1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
