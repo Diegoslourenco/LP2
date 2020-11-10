@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\obj\Debug\36.SomaValores.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\obj\Debug\_36.SomaValores.frmSoma.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\obj\Debug\_36.SomaValores.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\obj\Debug\36.SomaValores.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\obj\Debug\36.SomaValores.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\bin\Debug\36.SomaValores.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\bin\Debug\36.SomaValores.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\bin\Debug\36.SomaValores.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\obj\Debug\36.SomaValores.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\36.SomaValores\obj\Debug\36.SomaValores.pdb
