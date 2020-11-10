@@ -19,7 +19,6 @@ namespace _36.SomaValores
 
         private void btnSoma_Click(object sender, EventArgs e)
         {
-
             String mensagemErro = "Digite um número inteiro positivo entre 0 e 50!" +
                                   "\nDigite um valor novamente!";
 
@@ -40,8 +39,6 @@ namespace _36.SomaValores
                 {
                     MessageBox.Show(mensagemErro);
                 }
-
-
             }
             else
             {
