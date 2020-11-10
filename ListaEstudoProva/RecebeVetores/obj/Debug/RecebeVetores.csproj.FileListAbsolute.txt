@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\bin\Debug\RecebeVetores.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\bin\Debug\RecebeVetores.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\bin\Debug\RecebeVetores.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\obj\Debug\RecebeVetores.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\obj\Debug\RecebeVetores.frmVetores.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\obj\Debug\RecebeVetores.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\obj\Debug\RecebeVetores.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\obj\Debug\RecebeVetores.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\obj\Debug\RecebeVetores.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\RecebeVetores\obj\Debug\RecebeVetores.pdb
