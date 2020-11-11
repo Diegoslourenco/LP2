@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\bin\Debug\ConversorMedidas.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\bin\Debug\ConversorMedidas.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\bin\Debug\ConversorMedidas.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\obj\Debug\ConversorMedidas.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\obj\Debug\ConversorMedidas.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\obj\Debug\ConversorMedidas.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\obj\Debug\ConversorMedidas.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\obj\Debug\ConversorMedidas.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\obj\Debug\ConversorMedidas.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\ConversorMedidas\obj\Debug\ConversorMedidas.frmConversor.resources
