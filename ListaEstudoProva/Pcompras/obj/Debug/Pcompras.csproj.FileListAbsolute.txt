@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\bin\Debug\Pcompras.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\bin\Debug\Pcompras.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\bin\Debug\Pcompras.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\obj\Debug\Pcompras.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\obj\Debug\Pcompras.frmCompras.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\obj\Debug\Pcompras.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\obj\Debug\Pcompras.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\obj\Debug\Pcompras.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\obj\Debug\Pcompras.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\ListaEstudoProva\Pcompras\obj\Debug\Pcompras.pdb
