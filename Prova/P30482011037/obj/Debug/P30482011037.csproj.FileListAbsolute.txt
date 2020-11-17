@@ -1,0 +1,10 @@
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\obj\Debug\P30482011037.csprojAssemblyReference.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\obj\Debug\P30482011037.frmVendas.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\obj\Debug\P30482011037.Properties.Resources.resources
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\obj\Debug\P30482011037.csproj.GenerateResource.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\obj\Debug\P30482011037.csproj.CoreCompileInputs.cache
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\bin\Debug\P30482011037.exe.config
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\bin\Debug\P30482011037.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\bin\Debug\P30482011037.pdb
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\obj\Debug\P30482011037.exe
+C:\Users\Diego Lourenço\Desktop\Meus Arquivos\OneDrive - Fatec Centro Paula Souza\Documentos Diego\FATEC\Semestre 2\LP2\Entregas gitHub\Prova\P30482011037\obj\Debug\P30482011037.pdb
